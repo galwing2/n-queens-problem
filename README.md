@@ -1,1 +1,14 @@
 # n-queens-problem
+
+Project theme: A project that simulates the problem of the 8 queens in an interactive graphical way, using recursive methods: backtracking and brute force.
+
+Background: Scientists at the University of St Andrews in Scotland have challenged the best programmers: Discover a solution to a "simple" chess puzzle - and win a million dollars. Programmers will be able to win money if they find an effective solution to the famous Eight Queen puzzle.
+The puzzle requires the player to place eight queens on a regular chessboard (8X8) so that no queen threatens the other. In fact, it is forbidden to place a queen on the same bull, column or diagonal - the directions in which a queen can move in chess, the most powerful tool in the game.
+This is in fact a mathematical problem that was first published in 1850 and has already been solved. In total there are 4,426,165,368 possible placements for the queen on the board, but only 92 possible solutions.
+But once the chessboard grows, computer software fails to solve the riddle. Although already in basic courses in computer science this puzzle has been solved using a recursive algorithm in the withdrawal method - but it is not an effective and quick solution.
+
+Algorithmics: In computer science, Brute force, or Exhaustive search, refers to a process or algorithm that works by trial and error of all the possibilities for solving a given problem until the right solution is found. The expression originates in the fact that usually a direct method that does not utilize intelligent shortcuts, requires disproportionate force or a lot of energy investment in the hope that the solution will eventually be found and therefore is not considered effective.
+In computer science an exhaustive search describes generic techniques for solving mathematical problems that rely on a systematic mapping of all possible solutions and checking whether a solution to a given problem is found among them. Usually an exhaustive search algorithm is simple and easy to implement and in the end the solution is found if available, so rough power methods can be useful when the search range is small, or when there is a heuristic that allows to narrow the search range to a workable size like time / memory balance. Or when simple and easy-to-apply methods take precedence over execution speed. A coarse force algorithm can also be used as a reference algorithm for performance comparison.
+
+Implementation: The aim of the project is to present the solution to the problem of the 8 queens, in a generic form of n queens.
+That is, the software receives from the user as input the number of queues he wants to place, builds a board accordingly and presents the solution after calculation with the help of the "rough power" and the exhaustive search method. As the number of queues increases, the running time also increases as the sample space and the number of possible solutions increase significantly.
